@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "753640939090",
+    "project_id": "oquapp-94b22",
+    "storage_bucket": "oquapp-94b22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753640939090:android:013ae531666cc1c9e6098b",
+        "android_client_info": {
+          "package_name": "com.example.oquapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753640939090-esbi96ri236div2nlq0n9n04begtvdvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJNdzIGhbYYh2kWUobWKuZdFcONg_Q6Fw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753640939090-esbi96ri236div2nlq0n9n04begtvdvc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
