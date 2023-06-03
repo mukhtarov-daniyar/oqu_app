@@ -1,5 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:oqu_app/HomeScreen.dart';
+import 'package:oqu_app/PdfScreen/pdfScreen.dart';
 import 'package:oqu_app/SplashScreen/splashScreen.dart';
 
 Future<void> main() async {

@@ -1,8 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:oqu_app/PdfScreen/pdfScreen.dart';
 import 'package:oqu_app/Screens/profile_screen.dart';
 
 import 'Welcome/welcome_screen.dart';
+import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key key}) : super(key: key);
@@ -74,11 +76,32 @@ class _HomeScreenState extends State<HomeScreen> {
         child: SafeArea(
           child: Center(
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                ElevatedButton(
-                  onPressed: () {},
-                  child: Text('Push me'),
+                const SizedBox(
+                  height: 20,
+                ),
+                Text(
+                  'ҚИЯЛ-ҒАЖАЙЫП ЕРТЕГІЛЕР',
+                  style: TextStyle(
+                      color: Colors.black,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20),
+                ),
+                const SizedBox(
+                  height: 20,
+                ),
+                Container(
+                  decoration:
+                      BoxDecoration(borderRadius: BorderRadius.circular(20)),
+                  child: TextButton(
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const PdfScreen()));
+                    },
+                    child: Image.asset('assets/images/ertekter.jpeg'),
+                  ),
                 ),
               ],
             ),

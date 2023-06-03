@@ -29,6 +29,13 @@
             {
               "client_id": "753640939090-esbi96ri236div2nlq0n9n04begtvdvc.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "753640939090-jr6jum5k2j1p6mq43nk1deofq9vh4jv3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.oquapp"
+              }
             }
           ]
         }

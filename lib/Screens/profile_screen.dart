@@ -13,8 +13,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppColors.yellow,
-        title: Text('Аккаунт'),
+        elevation: 0,
+        centerTitle: true,
+        backgroundColor: Colors.brown,
+        title: Text('О разработчике'),
       ),
       body: SafeArea(
         child: Column(
@@ -23,7 +25,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
             Center(
               child: IconButton(
                 onPressed: () {
-                  Navigator.pop(context);
+                  // Navigator.pop(context);
                 },
                 icon: Icon(Icons.image_search_sharp),
               ),
